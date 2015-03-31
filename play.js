@@ -142,8 +142,8 @@ Game.Play.prototype = {
 	add_score: function(_player,_item) {
 		score++;
 		_item.kill();
-		player.animations.play('happy');
-		bird.animations.play('happy');
+		this.player.animations.play('happy');
+		this.bird.animations.play('happy');
 	},
 
 	render: function() {
