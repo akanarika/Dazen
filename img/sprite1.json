@@ -1,0 +1,124 @@
+{"frames": [
+
+{
+	"filename": "LOADINGbg.png",
+	"frame": {"x":2,"y":2,"w":641,"h":1009},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":641,"h":1009},
+	"sourceSize": {"w":641,"h":1009}
+},
+{
+	"filename": "LOADINGani1.png",
+	"frame": {"x":645,"y":1813,"w":166,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":28,"w":166,"h":143},
+	"sourceSize": {"w":171,"h":199}
+},
+{
+	"filename": "LOADINGani2.png",
+	"frame": {"x":645,"y":1666,"w":171,"h":145},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":27,"w":171,"h":145},
+	"sourceSize": {"w":171,"h":199}
+},
+{
+	"filename": "LOADINGbar.png",
+	"frame": {"x":645,"y":1138,"w":499,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":499,"h":40},
+	"sourceSize": {"w":499,"h":40}
+},
+{
+	"filename": "PLAYbg.png",
+	"frame": {"x":2,"y":1013,"w":641,"h":1009},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":641,"h":1009},
+	"sourceSize": {"w":641,"h":1009}
+},
+{
+	"filename": "wing.png",
+	"frame": {"x":1092,"y":1180,"w":131,"h":143},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":131,"h":143},
+	"sourceSize": {"w":131,"h":143}
+},
+{
+	"filename": "Title.png",
+	"frame": {"x":645,"y":704,"w":505,"h":432},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":505,"h":432},
+	"sourceSize": {"w":505,"h":432}
+},
+{
+	"filename": "loading.png",
+	"frame": {"x":645,"y":1958,"w":226,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":226,"h":57},
+	"sourceSize": {"w":226,"h":57}
+},
+{
+	"filename": "Logo.png",
+	"frame": {"x":813,"y":1915,"w":177,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":17,"w":177,"h":29},
+	"sourceSize": {"w":220,"h":61}
+},
+{
+	"filename": "ActCon.png",
+	"frame": {"x":645,"y":1180,"w":445,"h":484},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":96,"w":445,"h":484},
+	"sourceSize": {"w":581,"h":701}
+},
+{
+	"filename": "Act.png",
+	"frame": {"x":645,"y":2,"w":580,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":580,"h":700},
+	"sourceSize": {"w":580,"h":700}
+},
+{
+	"filename": "PLAYbt.png",
+	"frame": {"x":813,"y":1813,"w":301,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":13,"w":301,"h":100},
+	"sourceSize": {"w":301,"h":126}
+},
+{
+	"filename": "bt1.png",
+	"frame": {"x":1092,"y":1325,"w":92,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":91},
+	"sourceSize": {"w":92,"h":91}
+},
+{
+	"filename": "bt2.png",
+	"frame": {"x":1092,"y":1418,"w":92,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":91},
+	"sourceSize": {"w":92,"h":91}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sprite.png",
+	"format": "RGBA8888",
+	"size": {"w":1227,"h":2024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8b5b89a8c967e88600a0bccada89a00a:97485076a5495bdf6987b337345793ea:68d88b3cf7eafc9b5accfffdfb2fda91$"
+}
+}

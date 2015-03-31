@@ -1,0 +1,172 @@
+{"frames": [
+
+{
+	"filename": "jump.png",
+	"frame": {"x":1288,"y":2,"w":97,"h":227},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":97,"h":227},
+	"sourceSize": {"w":97,"h":227}
+},
+{
+	"filename": "player1.png",
+	"frame": {"x":645,"y":1543,"w":297,"h":441},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":0,"w":297,"h":441},
+	"sourceSize": {"w":351,"h":441}
+},
+{
+	"filename": "player2.png",
+	"frame": {"x":645,"y":1100,"w":298,"h":441},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":0,"w":298,"h":441},
+	"sourceSize": {"w":351,"h":441}
+},
+{
+	"filename": "player3.png",
+	"frame": {"x":945,"y":1100,"w":298,"h":441},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":0,"w":298,"h":441},
+	"sourceSize": {"w":351,"h":441}
+},
+{
+	"filename": "分享字.png",
+	"frame": {"x":2,"y":1757,"w":514,"h":189},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":514,"h":189},
+	"sourceSize": {"w":514,"h":189}
+},
+{
+	"filename": "coin.png",
+	"frame": {"x":1287,"y":887,"w":171,"h":171},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":171,"h":171},
+	"sourceSize": {"w":171,"h":171}
+},
+{
+	"filename": "奖励气球.png",
+	"frame": {"x":1287,"y":689,"w":171,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":171,"h":196},
+	"sourceSize": {"w":171,"h":197}
+},
+{
+	"filename": "bird1.png",
+	"frame": {"x":1226,"y":1634,"w":171,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":171,"h":126},
+	"sourceSize": {"w":176,"h":136}
+},
+{
+	"filename": "bird2.png",
+	"frame": {"x":1245,"y":1507,"w":172,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":172,"h":125},
+	"sourceSize": {"w":176,"h":136}
+},
+{
+	"filename": "bird3.png",
+	"frame": {"x":1226,"y":1762,"w":171,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":9,"w":171,"h":125},
+	"sourceSize": {"w":176,"h":136}
+},
+{
+	"filename": "shoe.png",
+	"frame": {"x":1288,"y":382,"w":150,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":31,"w":150,"h":116},
+	"sourceSize": {"w":166,"h":161}
+},
+{
+	"filename": "star.png",
+	"frame": {"x":1288,"y":231,"w":151,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":16,"w":151,"h":149},
+	"sourceSize": {"w":166,"h":171}
+},
+{
+	"filename": "sky.png",
+	"frame": {"x":2,"y":2,"w":641,"h":1009},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":641,"h":1009},
+	"sourceSize": {"w":641,"h":1009}
+},
+{
+	"filename": "leaf1.png",
+	"frame": {"x":944,"y":1543,"w":280,"h":354},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":38,"y":53,"w":280,"h":354},
+	"sourceSize": {"w":336,"h":470}
+},
+{
+	"filename": "leaf2.png",
+	"frame": {"x":1245,"y":1225,"w":192,"h":280},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":64,"y":153,"w":192,"h":280},
+	"sourceSize": {"w":336,"h":470}
+},
+{
+	"filename": "sand.png",
+	"frame": {"x":645,"y":2,"w":641,"h":685},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":324,"w":641,"h":685},
+	"sourceSize": {"w":641,"h":1009}
+},
+{
+	"filename": "sea.png",
+	"frame": {"x":2,"y":1013,"w":641,"h":742},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":210,"w":641,"h":742},
+	"sourceSize": {"w":641,"h":1009}
+},
+{
+	"filename": "water.png",
+	"frame": {"x":645,"y":689,"w":640,"h":409},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":41,"w":640,"h":409},
+	"sourceSize": {"w":641,"h":480}
+},
+{
+	"filename": "net.png",
+	"frame": {"x":944,"y":1899,"w":297,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":297,"h":118},
+	"sourceSize": {"w":301,"h":121}
+},
+{
+	"filename": "shark.png",
+	"frame": {"x":1287,"y":1060,"w":171,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":171,"h":163},
+	"sourceSize": {"w":171,"h":166}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sprite2.png",
+	"format": "RGBA8888",
+	"size": {"w":1460,"h":2019},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:80be883152978a0219f6fbe508cf0836:eaad40f1561fd9702bd8c7bdb41fcb73:66aaffcd701bd28f82c283e8c5bc56bb$"
+}
+}
