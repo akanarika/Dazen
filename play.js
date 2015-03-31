@@ -95,46 +95,13 @@ Game.Play.prototype = {
 		if(this.player.x>this.game.input.x+10) this.player.x= this.player.x-10;
 		else if(this.player.x<this.game.input.x-10) this.player.x=this.player.x+10;
 		
-		this.coins.forEach(function(item){item.y-=2;});
-		this.sharks.forEach(function(item){item.y-=2;});
-		this.nets.forEach(function(item){item.y-=2;});
+		this.coins.forEach(function(item){item.y-=2; if(item.y<height*3/10) item.kill();});
+		this.sharks.forEach(function(item){item.y-=2; if(item.y<height*3/10) item.kill();});
+		this.nets.forEach(function(item){item.y-=2; if(item.y<height*3/10) item.kill();});
 
 		game.physics.arcade.overlap(this.player, this.coins, this.add_score, null, this);
-		game.physics.arcade.overlap(this.player, this.sharks, this.add_score, null, this);
-		/*this.coins.forEach(function(item){
-			item.y = item.y - 2;
-			if(item.y<height*3/10){item.kill();} 
-			//if(item.overlap(player)){score++; item.kill();}
-			if((item.x<(player.x+30))&&(item.x>(player.x-30))&&(item.y<(player.y+player.height/2-40))) {
-				last = item;
-				item.kill();
-				player.animations.play('happy');
-				bird.animations.play('happy');
-			}
-		});
+		game.physics.arcade.overlap(this.player, this.sharks, this.reduce_score, null, this);
 
-		this.sharks.forEach(function(item){
-			item.y = item.y - 3;
-			if(item.y<height*3/10){item.kill();}
-			if((item.x<(player.x+30))&&(item.x>(player.x-30))&&(item.y<(player.y+player.height/2-40))) {
-				last = item;
-				item.kill();
-				player.animations.play('sad');
-				bird.animations.play('sad');
-			}
-		});
-
-		this.nets.forEach(function(item){
-			item.y = item.y - 2;
-			if(item.y<height*3/10){item.kill();} 
-			if((item.x<(player.x+30))&&(item.x>(player.x-30))&&(item.y<(player.y+player.height/2-100))) { 
-				last = item;
-				item.kill();
-				player.animations.play('sad');
-				bird.animations.play('sad');
-			}
-		});*/
-		//this.game.input.touch.onTouchStart = this.jump;
 
 
 	},
@@ -144,6 +111,13 @@ Game.Play.prototype = {
 		_item.kill();
 		this.player.animations.play('happy');
 		this.bird.animations.play('happy');
+	},
+
+	reduce_score: function(_player,_item) {
+		score--;
+		_item.kill();
+		this.player.animations.play('sad');
+		this.bird.animations.play('sad');
 	},
 
 	render: function() {
